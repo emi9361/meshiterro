@@ -10,7 +10,7 @@
     <title>Meshiterro</title>
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,600,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
-  </head> 
+  </head>
 
   <body>
 
@@ -41,7 +41,7 @@
               <%= link_to '投稿フォーム', new_post_image_path %>
               </li>
               <li class ="">
-              <%= link_to 'マイページ', "#" %>
+              <%= link_to 'マイページ', user_path(current_user.id) %>
               </li>
 
             <% else %>
